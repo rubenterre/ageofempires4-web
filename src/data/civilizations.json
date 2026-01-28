@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Abbasid Dynasty",
+        "civilization-image": "/civilizations/Abbasid_dynasty.webp",
+        "flag-image": "/flags/Abbasyd_flag.webp",
+        "title":"Playing The Abbasid Dynasty",
+        "description": "The Abbasid Dynasty is an adaptive civilization due to their ability to research unique upgrades at the House of Wisdom. These upgrades impact and alter core game elements and mechanics, providing a unique way to build your empire. In Age of Empires IV, the Abbasid Dynasty civilization spans the years 750-1517 CE and is based on the Abbasid Caliphate and the Mamluk Sultanate. The empire was born in modern-day Iraq, but after the Mongols destroyed its capital of Baghdad in 1258, the seat of power moved to Cairo.You will experience the “Golden Age of Islam” playing the Abbasid Dynasty – an Arabic-speaking civilization. This period saw flourishing technological innovations as the medieval world raced towards the modern era. The Abbasid Dynasty ruled the spiritual heart of the Islamic world for nearly 800 years, surviving civil wars, the Crusades, the Mongol invasion, relentless piracy, and rebellions."
+    },
+    {
+        "name": "Chinese",
+        "civilization-image": "/civilizations/Chinese.webp",
+        "flag-image": "/flags/Chinese_flag.webp",
+        "title":"The Chinese",
+        "description": "The Chinese civilization is one of impressive constructions, gunpowder strength, and a dynasty system that provides unique benefits and varied strategies to overcome the opponent. The Chinese civilization in Age of Empires IV is a thriving, unique civilization that grows through their dynasty system over the years 907-1644 CE. They are powerful defenders behind formidable fortifications.The engineering prowess of the Chinese dominated the world for centuries, a trait present in Age of Empires IV. You live through history as Chinese culture, strength, and innovations created ripples across Eurasia, growing your empire as you move through vibrant Tang, Song, Yuan, and Ming Dynasties. Your units speak Mandarin Chinese, a Sinitic language originating in North China. "        
+    },
+    {
+        "name": "Delhi Sultanate",
+        "civilization-image": "/civilizations/Delhi_Sultanate.webp",
+        "flag-image": "/flags/Delhi_Sultanate_flag.webp",
+        "title":"The Delhi Sultanate in Age IV",
+        "description": "The Delhi Sultanate civilization is at the forefront of technological innovation. They have a strong focus on research and defense, with an edge in technological advancement over other civilizations. In Age of Empires IV, the Delhi Sultanate civilization is based on the powerful empire formed from the invasion of the Ghurid Dynasty (originating in Persia) into northern India spanning the years 879-1526 CE. For 300 years, this empire shaped an independent Indo-Islamic region, adopting technology present in India. Advancing through the Ages has you experience this civilization’s rich history. With the first Age reflecting the Turkish and Iranian Ghurid Sultanate, playing the Farsi/Persian-speaking Delhi Sultanate civilization brings you through the Mamluk and Khalji Dynasty, Tughlaq Dynasty, and the Sayyid and Lodi Dynasty—getting a taste for the Delhi Sultanate’s vibrant cultures and defiant strength."
+    },
+    {
+        "name": "English",
+        "civilization-image": "/civilizations/English.webp",
+        "flag-image": "/flags/English_flag.webp",
+        "title": "The English",
+        "description": "The English are a defensive powerhouse in Age of Empires IV. Their strength is unparalleled, reinforced by the power of their archery units, a firm control over castles and defensive buildings, and a highly dependable food economy that sustains them through the Ages. Age of Empires IV introduces the English civilization during the Anglo-Saxon era in Great Britain spanning from 850-1555 CE. As you progress from the Middle Ages to the Late Renaissance in the 16th century, you bear witness to the story of a civilization that survived the fall of empires, conquerors, and plagues. Age of Empires IV has you build up the English civilization across four eras: the Anglo-Saxon, Anglo-Norman, English Gothic, and Tudor eras. Each Age has its distinct style from architecture to armor, with populations speaking Old English in the Dark Age and evolving to Early Modern English by the Imperial Age."
+    },
+    {
+        "name": "French",
+        "civilization-image": "/civilizations/French.webp",
+        "flag-image": "/flags/French_flag.webp",
+        "title":"The French",
+        "description": "Known for their cavalry, the French are a fearsome army whose armored knights and charges can tip the tides of battle. The French civilization in Age of Empires IV spans the years 840-1559 CE and is based on a medieval France that fought its way from adversity to prosperity. Overcoming invasions, plagues and revolt, France emerged as a powerful modern nation. Playing the French civilization will take you through the age of chivalry and honorable combat, to the time of Jeanne d’Arc and France’s darkest hour, to the formation of a disciplined standing army capable of liberating the nation with the roar of cannon fire."
+    },
+    {
+        "name": "Holy Roman Empire",
+        "civilization-image": "/civilizations/Holy_Roman_Empire.webp",
+        "flag-image": "/flags/Holy_Roman_Empire_flag.webp",
+        "title": "The Holy Roman Empire",
+        "description": "The Holy Roman Empire is a civilization shaped by a powerful infantry army, made stronger by the support of their religious unit — the Prelate. The Holy Roman Empire in Age of Empires IV spans the years 936-1517 CE. The empire, centered in a region that comprises modern Germany, claimed to be the rightful successor to the ancient Roman Empire. Its emperors controlled central Europe with a stalwart infantry of exuberant Landsknechte, and aimed to capture the center of the Christian world itself: Rome. In Age IV, the Holy Roman Empire stands out through their early access to religious units, available from the First Age onwards. Through careful use of the Prelate, players will be able to buff Villagers, speeding up their economic growth."
+    },
+    {
+        "name": "Malians",
+        "civilization-image": "/civilizations/Malians.webp",
+        "flag-image": "/flags/Malians_flag.webp",
+        "title": "The Malians",
+        "description": "The Malians focus on strong economic play, making gold and spending gold, and prefer strategic hit-and-run tactics with their unique infantry units instead of prolonged military battles. In Age of Empires IV, the civilization of the Malians spans the years from the pre-imperial Mali Empire period in the 11th century CE to the early 16th century CE. Uniting from a collection of independent kingdoms, the Malian civilization coalesced into one of the most influential West African empires in history, as well as one of the richest trading nations of all-time."
+    },
+    {
+        "name": "Mongols",
+        "civilization-image": "/civilizations/Mongols.webp",
+        "flag-image": "/flags/Mongols_flag.webp",
+        "title": "Playing The Mongols",
+        "description": "The Mongols are an agile civilization, excelling in hit-and-run military strategies and capable of expanding armies rapidly. The Mongols civilization in Age of Empires IV are extremely capable in hit-and-run strategies, thanks to their exceptional mobility and nomadic nature originating in the Great Steppes of Central Asia. You witness the Mongols through the Ages, spanning from 1000-1500 CE, as a disciplined civilization, recognized for changing history in connecting the East to the West. In Age IV, the Mongols are known for their unique structure and are at their most powerful when playing to their strengths in tight groups. They speak Mongolian—the most widely spoken of the Mongolic languages."
+    },
+    {
+        "name": "Ottomans",
+        "civilization-image": "/civilizations/Ottomans.webp",
+        "flag-image": "/flags/Ottomans_flag.webp",
+        "title": "The Ottomans",
+        "description": "The Ottoman civilization benefits strongly from their military prowess, their Imperial Council system, as well as their unique Military School system. In Age of Empires IV, the civilization of the Ottomans spans the years from the pre-imperial Ottoman Empire period in the 11th century CE to the mid-16th century CE. Originating in Anatolia, the Ottomans rose to become one of the longest lasting empires in history with its effective and stable government, supported by a famously well-trained and regimented military."
+    },
+    {
+        "name": "Rus",
+        "civilization-image": "/civilizations/Rus.webp",
+        "flag-image": "/flags/Rus_flag.webp",
+        "title":"The Rus",
+        "description": "The Rus are highly skilled hunters, adept in the wild. Supported by their battle-ready cavalry, the Rus grow more powerful as they expand to new frontiers through the Ages. In Age of Empires IV, the Rus civilization tells the story of a fledgling empire caught between powerful opponents over the years 882-1552 CE. Hardened by devastating invasions, political instability, and bitter winters, the Rus were built for survival. Masters of hunting, trade, and wooden construction, they would rebuild their realm as their leaders fought to birth a new empire under Moscow. Age of Empires IV allows you to experience the Rus civilization through four Ages portraying distinct moments in history: in Age I, traditional Slavic with Norman and Norse influences; in Age II, the Rus’ Golden Age with Byzantine influence; in Age III, the fall of Mongol influence; and in Age IV, the rise of the Muscovy Duchy."
+    }
+]

@@ -1,0 +1,137 @@
+---
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import Hero from "../../components/Hero.astro";
+
+import civilizations from "../../data/civilizations.json";
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  return civilizations.map((civ) => {
+    return {
+      params: { slug: civ.name },
+      props: { civ },
+    };
+  });
+}
+
+const { civ } = Astro.props;
+---
+
+<Layout>
+  <Header />
+  <Hero title={civ.name} />
+
+  <section class="selection">
+    <nav class="selection__nav">
+
+    {civilizations.map((item) => (
+      <a href={`/civilizations/${item.name}`} class="selection__a">
+        <div class="selection__btn">
+          <img class="selection__flag" src={item["flag-image"]} alt={item.name} />
+          <p class="selection__p">{item.name}</p>
+        </div>
+      </a>
+	))}
+    </nav>
+  </section>
+
+  <section class="details" style={`--bg-url: url(${civ["civilization-image"]})`}>
+
+    <div class="details__card">
+
+        <h3 class="details__h3">
+            {civ.title}
+        </h3>
+        <p class="details__p">
+            {civ.description}
+        </p>
+
+    </div>
+
+
+  </section>
+
+  <Footer />
+</Layout>
+
+<style>
+   .selection{
+    width: 100vw;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(
+    to right,
+    transparent,
+    rgba(184, 134, 45, 1),
+    transparent
+  ) 1; 
+   }
+
+  .selection__nav {
+    max-width: 1580px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 350px, 1fr));
+    gap: 12px;
+  }
+
+  .selection__a {
+    max-width: 350px;
+    text-decoration: none;
+    color: var(--color-golden-light);
+  }
+
+  .selection__btn {
+    max-width: 350px;
+    background-image:url(/img/fondo_subnav.webp), linear-gradient(0deg, #002845, #013f63);
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+  }
+
+  .selection__flag {
+    width: 2rem;
+  }
+
+  /* Details */
+
+  .details{
+    min-height: 700px;
+    background: linear-gradient(90deg, #002845, #002845, #013f6300), var(--bg-url);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    padding-left: 10%;
+
+  }
+
+  .details__card{
+    max-width: 40%;
+    background: linear-gradient(90deg, var(--color-blue-midnight), var(--color-blue-midnight), #013f6300), url(/img/pattern_right.webp);
+    background-blend-mode: overlay;
+    background-size: contain;
+    padding: 3rem;
+    box-shadow: 0px 2px 8px rgb(27, 27, 27);
+  }
+
+  .details__h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--color-golden-light);
+  }
+
+  .details__p{
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    color: var(--color-text-details);
+  }
+
+</style>
